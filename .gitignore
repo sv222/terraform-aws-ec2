@@ -1,0 +1,41 @@
+# Ignore local .terraform directories
+**/.terraform/*
+
+# Ignore .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash log files
+crash.log
+
+# Ignore .terraformrc files
+.terraformrc
+
+# Ignore override files as they are usually used to change Terraform behavior in testing
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraform.d/*
+
+# Ignore the .tfplan files used by "terraform plan"
+*.tfplan
+
+# Ignore .terraform.lock.hcl file
+.terraform.lock.hcl
+
+# Ignore .DS_Store files
+.DS_Store
+
+# Ignore any logs or temp files
+*.log
+*.out
+*.tmp
+*.backup
+*.bak
+*.swp
+
+# Ignore .vscode directory
+.vscode
