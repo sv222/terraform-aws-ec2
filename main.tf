@@ -1,7 +1,3 @@
-provider "aws" {
-  region = var.aws_region
-}
-
 resource "aws_security_group" "ec2_instance" {
   name_prefix = "ec2_instance_"
   ingress {
